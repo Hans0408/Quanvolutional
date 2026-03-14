@@ -1,0 +1,18 @@
+# Core numerical stack
+numpy>=1.24
+matplotlib>=3.7
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16
+
+# Quantum ML
+pennylane>=0.34
+
+# Notebook runtime
+jupyter>=1.0
+ipykernel>=6.0
+
+# Developer tooling
+black>=24.0
+ruff>=0.6
