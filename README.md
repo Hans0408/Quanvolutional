@@ -67,6 +67,3 @@ black --check .
 - Add automated experiment entry points (`scripts/`) for non-notebook runs.
 - Add unit tests for patch extraction, quantum layer wrappers, and data transforms.
 
-## License
-
-No license file is currently defined. Add one before public/open-source distribution.
