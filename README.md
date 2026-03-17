@@ -51,19 +51,3 @@ Open `Experiments.ipynb` and run cells in order.
 - Prefer running the notebook top-to-bottom in a fresh kernel.
 - Record experiment parameters/results in markdown cells next to outputs.
 
-## Development Quality Checks
-
-This repository uses a lightweight tooling baseline:
-
-```bash
-python -m compileall .
-ruff check .
-black --check .
-```
-
-## Roadmap
-
-- Split reusable utilities from the notebook into a Python module (e.g., `src/quanvolutional/`).
-- Add automated experiment entry points (`scripts/`) for non-notebook runs.
-- Add unit tests for patch extraction, quantum layer wrappers, and data transforms.
-
